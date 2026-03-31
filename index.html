@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon2.png"
+      type="image/x-icon"
+    />
+    
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Burger 13 Website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <div>
+            <img src="assets/img/Burger13.svg" alt="burger logo" />
+          </div>
+          Burger 13
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+           <li><a href="#home" class="nav__link">Hem</a></li>
+           <li><a href="#recipe" class="nav__link">Recept</a></li>
+           <li><a href="#popular" class="nav__link">Populärt</a></li>
+           <li><a href="#delivery" class="nav__link">Leverans</a></li>
+           <li><a href="#contact" class="nav__link">Kontakt</a></li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-2-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">Topp 5 burgare <br />i Skåne</h1>
+
+            <p class="home__description">
+              Burger 13 är en street burger-restaurang i hjärtat av Lund där kvalitet och hantverk
+              står i fokus. Med noggrant utvalt kött från Skåne och handgjorda bröd
+              skapar vi burgare med en unik smak.
+              Vår meny är enkel men genomtänkt, med ett urval av burgare och tillbehör som passar alla.
+              Njut av din mat hos oss, ta med den eller få den levererad direkt hem till dig.
+            </p>
+            </p>
+
+            <a href="#popular" class="button">Ät nu</a>
+
+            <img
+              src="assets/img/sticker-potatoes.svg"
+              alt="potatoes"
+              class="home__sticker"
+            />
+          </div>
+
+          <div class="home__images">
+            <img
+              src="assets/img/home-burger.png"
+              alt="burger"
+              class="home__burger"
+            />
+            <img
+              src="assets/img/home-dish.png"
+              alt="burger dish"
+              class="home__dish"
+            />
+
+            <img
+              src="assets/img/home-potato.png"
+              alt="potato"
+              class="home__ingredient home__potato-1"
+            />
+            <img
+              src="assets/img/home-potato.png"
+              alt="potato"
+              class="home__ingredient home__potato-2"
+            />
+            <img
+              src="assets/img/home-tomato.png"
+              alt="tomato"
+              class="home__ingredient home__tomato-1"
+            />
+            <img
+              src="assets/img/home-tomato.png"
+              alt="tomato"
+              class="home__ingredient home__tomato-2"
+            />
+            <img
+              src="assets/img/home-lettuce.png"
+              alt="lettuce"
+              class="home__ingredient home__lettuce-1"
+            />
+            <img
+              src="assets/img/home-lettuce.png"
+              alt="lettuce"
+              class="home__ingredient home__lettuce-2"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== RECIPE ====================-->
+      <!--==================== RECIPE ====================-->
+      <section class="recipe section" id="recipe">
+        <h2 class="section__title">Vårt hemliga recept</h2>
+
+        <div class="recipe__container container grid">
+          <div class="recipe__image">
+            <img
+              src="assets/img/recipe-burger.png"
+              alt="burger recept"
+              class="recipe__img"
+            />
+          </div>
+
+          <div class="recipe__data">
+            <div class="recipe__card">
+              <div class="recipe__box">
+                <img src="assets/img/recipe-bread.png" alt="bröd" />
+              </div>
+
+              <div>
+                <h3 class="recipe__title">Bröd</h3>
+                <p class="recipe__description">
+                  Färskt bröd, bakat till perfektion.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe__card">
+              <div class="recipe__box">
+                <img src="assets/img/recipe-cheese.png" alt="ost" />
+              </div>
+
+              <div>
+                <h3 class="recipe__title">Ost</h3>
+                <p class="recipe__description">
+                  Ost för en fantastisk och smakrik upplevelse.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe__card">
+              <div class="recipe__box">
+                <img src="assets/img/recipe-meat.png" alt="kött" />
+              </div>
+
+              <div>
+                <h3 class="recipe__title">Kött</h3>
+                <p class="recipe__description">
+                  100% rent nötkött, stort och smakrikt.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe__card">
+              <div class="recipe__box">
+                <img src="assets/img/recipe-vegetable.png" alt="grönsaker" />
+              </div>
+
+              <div>
+                <h3 class="recipe__title">Grönsaker</h3>
+                <p class="recipe__description">
+                  Grönsaker fulla av naturens och ekologins essens.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe__card">
+              <div class="recipe__box">
+                <img src="assets/img/recipe-sauces.png" alt="såser" />
+              </div>
+
+              <div>
+                <h3 class="recipe__title">Såser</h3>
+                <p class="recipe__description">
+                  Färska såser som ger extra smak på tallriken.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+        <h2 class="section__title">Mest populära <br />Burgers</h2>
+
+        <div class="popular__container container grid">
+          <article class="popular__card">
+            <img
+              src="assets/img/popular-burger-chicken.png"
+              alt="chicken burger"
+              class="popular__img"
+            />
+            <h2 class="popular__title">Scream <br /></h2>
+            <span class="popular__price">60 Kr</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </article>
+
+          <article class="popular__card">
+            <img
+              src="assets/img/popular-burger-meat.png"
+              alt="meat burger"
+              class="popular__img"
+            />
+            <h2 class="popular__title">
+              Cheezy <br />
+              
+            </h2>
+            <span class="popular__price">100 Kr</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </article>
+
+          <article class="popular__card">
+            <img
+              src="assets/img/popular-burger-grill.png"
+              alt="grill burger"
+              class="popular__img"
+            />
+            <h2 class="popular__title">
+              B13 <br />
+              
+            </h2>
+            <span class="popular__price">120 Kr</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </article>
+
+          <article class="popular__card">
+            <img
+              src="assets/img/popular-burger-classic.png"
+              alt="classic burger"
+              class="popular__img"
+            />
+            <h2 class="popular__title">
+              Kalkopanko <br />
+              
+            </h2>
+            <span class="popular__price">100 Kr</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </article>
+
+          <article class="popular__card">
+            <img
+              src="assets/img/popular-burger-big.png"
+              alt="big burger"
+              class="popular__img"
+            />
+            <h2 class="popular__title">
+              Burger 13-2 <br />
+
+            </h2>
+            <span class="popular__price">90 Kr</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== DELIVERY ====================-->
+      <section class="delivery section" id="delivery">
+        <div class="delivery__container container grid">
+          <div class="delivery__data">
+            <h2 class="section__title">Snabb leverans</h2>
+
+            <p class="delivery__description">
+              Beställ din favoritburgare och vi levererar den till din dörr på några minuter. 
+              Hör av dig och gå inte hungrig.
+            </p>
+
+            <a href="#contact" class="button">Beställ nu</a>
+
+            <img
+              src="assets/img/sticker-glass.svg"
+              alt="sticker glass"
+              class="delivery__sticker"
+            />
+          </div>
+
+          <img
+            src="assets/img/delivery-burger.png"
+            alt="burger"
+            class="delivery__img"
+          />
+        </div>
+      </section>
+
+    
+     <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+      <div class="contact__container container grid">
+        <h2 class="section__title">Beställ nu</h2>
+
+        <div class="contact__content grid">
+          <div class="contact__data grid">
+            <div>
+              <h3 class="contact__title">Skriv till oss</h3>
+
+              <div class="contact__social">
+                <a href="#" target="_blank">
+                  <i class="ri-whatsapp-fill"></i>
+                </a>
+                <a href="#" target="_blank">
+                  <i class="ri-facebook-circle-fill"></i>
+                </a>
+                <a href="#" target="_blank">
+                  <i class="ri-telegram-fill"></i>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="contact__title">Ring oss och beställ</h3>
+
+              <address class="contact__info">
+                +46-123-456-789 <br />073 989 13 01
+              </address>
+            </div>
+
+            <div>
+              <h3 class="contact__title">Hitta oss här</h3>
+
+              <address class="contact__info">
+                ÖSTRA MÅRTENSGATAN 6 <br />
+                223 61 Lund
+              </address>
+            </div>
+
+            <!-- Öppettider -->
+            <div>
+              <h3 class="contact__title">Öppettider</h3>
+
+              <address class="contact__info">
+                Mån–Sön: 11:00–21:00
+              </address>
+            </div>
+
+          </div>
+
+          <div class="contact__image">
+            <img
+              src="assets/img/contact-man.png"
+              alt="kontakt person"
+              class="contact__img"
+            />
+          </div>
+        </div>
+
+        <img
+          src="assets/img/sticker-burger.svg"
+          alt="burgare"
+          class="contact__sticker-1"
+        />
+        <img
+          src="assets/img/sticker-soda.svg"
+          alt="läsk"
+          class="contact__sticker-2"
+        />
+
+      </div>
+    </section>
+    </main>
+    
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="#" class="footer__logo">Burger 13</a>
+
+        <div class="footer__content grid">
+          <a href="#" class="footer__link">Terms & Agreements</a>
+          <a href="#" class="footer__link">Privacy Policy</a>
+
+          <div class="footer__social">
+            <a href="#" target="_blank">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="ri-twitter-x-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <span class="footer__copy">
+         All Rights Reserved by Sasan Mousavi.
+      </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" id="scroll-up" class="scrollup">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
