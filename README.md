@@ -1,8 +1,8 @@
-# Responsive Burger Website
+# Burger13
 
-### Responsive Burger Website
+### Burger13 
 
-- Burger13 Website Design Using HTML CSS And JavaScript.
+- Burger13 Design Using HTML CSS And JavaScript.
 - Contains animations when scrolling.
 - Smooth scrolling in each section.
 - Developed first with the Mobile First methodology, then for desktop.
